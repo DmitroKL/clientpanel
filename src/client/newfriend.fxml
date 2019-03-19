@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="447.0" prefWidth="412.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.mk.berkut.maserver.clientpanel.Controller">
+   <children>
+      <Button layoutX="354.0" layoutY="14.0" mnemonicParsing="false" text="Exit" />
+      <ScrollPane layoutX="14.0" layoutY="62.0" prefHeight="372.0" prefWidth="386.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="372.0" prefWidth="382.0" />
+        </content>
+      </ScrollPane>
+      <Label layoutX="27.0" layoutY="19.0" text="Find your Friend and add his id" />
+      <TextField layoutX="238.0" layoutY="14.0" prefHeight="31.0" prefWidth="89.0" />
+   </children>
+</AnchorPane>
